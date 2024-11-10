@@ -1,0 +1,50 @@
+.zone {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+
+h1 {
+  font-size: 48px;
+  color:red;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 50px;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: red;
+  color:yellow;
+}

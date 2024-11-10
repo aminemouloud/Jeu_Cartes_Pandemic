@@ -1,0 +1,30 @@
+<div class="form-bg">
+    <div class="form-container">
+        <div class="logo-container">
+            <img src="assets/pandemic_logo.png" alt="Pandemic Game Logo" class="logo">
+        </div>
+        <form class="form-horizontal" #loginForm="ngForm" (ngSubmit)="onCreateCompte()">
+            <div class="form-group">
+                <h3>Création de compte</h3>
+                <label for="nomJoueur">Nom joueur</label>
+                <input type="text" class="form-control" id="nomJoueur" name="nomJoueur" [(ngModel)]="nomJoueur"  type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="mdp">Mot de passe</label>
+                    <input type="text" class="form-control" id="mdp" name="mdp" [(ngModel)]="mdp" type="password" required>
+            </div>
+            <div class = "boutons">
+                <button type="submit" class="gauche" (click)="showBasicDialog()">
+                    Ajouter
+                </button>
+                <button type="submit" class="droite" (click)="quitter()">
+                    Quitter
+                </button>
+            </div>
+        </form>
+    </div>
+</div> 
+
+
+
+

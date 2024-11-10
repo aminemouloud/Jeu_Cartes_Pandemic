@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nom Joueur</th>
+      <th scope="col">Etat Partie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let partie of parties">
+      <td *ngFor="let nomJoueur of partie.lesJoueurs">{{nomJoueur}}</td>
+      <td>{{partie.etatPartie}}</td>
+    </tr>
+  </tbody>
+</table>

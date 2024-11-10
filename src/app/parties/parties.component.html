@@ -1,0 +1,27 @@
+<div class="tableDiv">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Nom Joueur</th>
+        <th scope="col">Etat Partie</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let partie of parties">
+        <td>{{ partie.lesJoueurs.join(', ') }}</td>
+        <td>{{ partie.etatPartie }}</td>
+        <td>
+          <button class="btn btn-sm btn-primary mr-2" (click)="rejoindrePartie(partie)">Rejoindre</button>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="boutons">    
+  <button type="button" class="btn" (click)="quitter();"> Quitter</button>
+</div>
+
+

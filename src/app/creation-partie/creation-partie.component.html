@@ -1,0 +1,21 @@
+<div class="tableDiv" *ngIf="partie">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Nom Joueur</th>
+          <th scope="col">Etat Partie</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ partie.lesJoueurs.join(', ') }}</td>
+          <td>{{ partie.etatPartie }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div class="boutons">    
+  <button class="btn" (click)="lancerPartie()">Lancer partie</button>
+  <button type="button" class="btn" (click)="retour();"> Retour</button>
+  <button type="button" class="btnn" (click)="quitter();"> Quitter</button>
+</div>

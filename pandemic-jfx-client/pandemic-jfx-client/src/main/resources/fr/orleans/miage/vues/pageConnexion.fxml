@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="pane" prefHeight="550.0" prefWidth="600.0" styleClass="bodybj" stylesheets="@images/background.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.orleans.miage.vues.PageConnexion">
+   <center>
+      <VBox alignment="CENTER" prefHeight="410.0" prefWidth="550.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="89.0" prefWidth="130.0" style="-fx-background-color: #e1dfd3;" text="Pseudo">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="pseudo" prefHeight="48.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="437.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #e1dfd3;" text="Mot de passe">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="motDePasse" prefHeight="42.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="227.0" prefWidth="600.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#retour" prefHeight="39.0" prefWidth="101.0" text="Retour">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#allerPageAuthentification" prefHeight="39.0" prefWidth="149.0" text="Se Connecter">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

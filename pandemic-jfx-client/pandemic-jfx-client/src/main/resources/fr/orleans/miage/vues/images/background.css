@@ -1,0 +1,18 @@
+.bodybg{
+    -fx-background-image: url('imagess.jpeg');
+    -fx-background-size: 100% 100%;
+}
+
+.bodybj {
+    -fx-background-image: url('imageJ.jpeg');
+    -fx-background-size: 100% 100%;
+}
+.bodyPlateau {
+    -fx-background-image: url('plateau/pandemic_Plateau.jpeg');
+    -fx-background-size: 100% 100%;
+}
+
+.bodychoixmaladie {
+    -fx-background-image: url('imageJ.jpeg');
+    -fx-background-size: 100% 100%;
+}

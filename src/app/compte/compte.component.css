@@ -1,0 +1,84 @@
+.form-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.form-horizontal {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 95%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.boutons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gauche {
+  margin-right: auto;
+  padding: 10px 20px;
+  background-color: red;
+  color: yellow;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.droite {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: red;
+  color: yellow;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+
+.gauche:hover {
+  background-color: red;
+  color: yellow;
+}
+.droite:hover {
+  background-color: #0062cc;
+}
+
+.boutons button:hover {
+  background-color: red;
+  color: yellow;
+}

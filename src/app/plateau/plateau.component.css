@@ -1,0 +1,552 @@
+.plateau {
+  position: relative;
+}
+
+img#bg {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+}
+
+
+
+.afficher_main {
+  position: relative;
+  width: 2.4%;
+  height: 4%;
+}
+
+.afficher_main button {
+  width: 35px;
+  height: 45px;
+  background-color: white;
+}
+
+.main {
+  position: absolute;
+  left: 10%;
+  bottom: 4.5%;
+}
+
+.afficher_main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.listesCarte{
+  position: absolute;
+  left: 50%;
+  bottom:50%;
+}
+.carte_joueur {
+  position: relative;
+  width: 11.65%;
+  height: 22.5%;
+}
+.carte_propagation {
+  position: relative;
+  width: 16%;
+  height: 16.5%;
+}
+
+.carte_joueur button {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+.carte_propagation button {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+.joueur_pioche{
+  position: absolute;
+  left: 59.5%;
+  bottom: 3.6%;
+}
+
+.joueur_defausse{
+  position: absolute;
+  left: 74%;
+  bottom: 3.6%;
+
+}
+
+.propagation_pioche{
+  position: absolute;
+  left: 59.15%;
+  bottom: 82%;
+}
+
+.propagation_defausse{
+  position: absolute;
+  left: 77%;
+  bottom: 82%;
+}
+
+.ville {
+  position: relative;
+  width: 2.4%;
+  height: 4%;
+}
+
+.ville button {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #f00;
+}
+
+.eclosion {
+  position: relative;
+  width: 2.4%;
+  height: 4%;
+}
+
+.eclosion button {
+  background-color: purple;
+  height: 100%;
+  width: 100%;
+}
+
+.remede {
+  position: relative;
+  width: 2.4%;
+  height: 4%;
+}
+
+.remede button {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.propagation {
+  position: relative;
+  width: 3.2%;
+  height: 4.8%;
+}
+
+.propagation button {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.propagation_vitesse_2_1 {
+  position: absolute;
+  left: 62.85%;
+  bottom: 77%;
+}
+
+.propagation_vitesse_2_2 {
+  position: absolute;
+  left: 66.5%;
+  bottom: 77%;
+}
+
+.propagation_vitesse_2_3 {
+  position: absolute;
+  left: 70.2%;
+  bottom: 77%;}
+
+.propagation_vitesse_3_1 {
+  position: absolute;
+  left: 74%;
+  bottom: 77%;
+}
+
+.propagation_vitesse_3_2 {
+  position: absolute;
+  left: 77.7%;
+  bottom: 77%;
+}
+
+.propagation_vitesse_4_1 {
+  position: absolute;
+  left: 81.35%;
+  bottom: 77%;}
+
+.propagation_vitesse_4_2 {
+  position: absolute;
+  left: 85.05%;
+  bottom: 77%;
+}
+
+.remede_jaune {
+  position: absolute;
+  left: 30.5%;
+  bottom: 2.4%;
+}
+
+.remede_rouge {
+  position: absolute;
+  left: 35.5%;
+  bottom: 2.4%;
+}
+.remede_bleu {
+  position: absolute;
+  left: 40.4%;
+  bottom: 2.4%;
+}
+.remede_noir {
+  position: absolute;
+  left: 45%;
+  bottom: 2.4%;
+}
+.remede_violet {
+  position: absolute;
+  left: 52.15%;
+  bottom: 2.4%;
+}
+
+.eclo_0{
+  position: absolute;
+  left: 2.55%;
+  bottom: 42.28%;
+}
+
+.eclo_1{
+  position: absolute;
+  left: 6.35%;
+  bottom: 37.65%;
+}
+
+.eclo_2{
+  position: absolute;
+  left: 2.55%;
+  bottom: 33.5%;
+}
+
+.eclo_3{
+  position: absolute;
+  left: 6.35%;
+  bottom: 29%;
+}
+
+.eclo_4{
+  position: absolute;
+  left: 2.55%;
+  bottom: 24.7%;
+}
+
+.eclo_5{
+  position: absolute;
+  left: 6.35%;
+  bottom: 20.4%;
+}
+
+.eclo_6{
+  position: absolute;
+  left: 2.55%;
+  bottom: 16.4%;
+}
+
+.eclo_7{
+  position: absolute;
+  left: 6.35%;
+  bottom: 12.3%;
+}
+
+.eclo_mort{
+  position: absolute;
+  left: 2.55%;
+  bottom: 8%;
+}
+
+.san_francisco {
+  position: absolute;
+  left: 3%;
+  bottom: 65.125%;
+}
+
+.los_angeles {
+  position: absolute;
+  left: 4.60%;
+  bottom: 54.9%;
+}
+
+
+.chicago {
+  position: absolute;
+  left: 12.65%;
+  bottom: 69%;
+}
+
+.atlanta {
+  position: absolute;
+  left: 15.3%;
+  bottom: 61.5%;
+}
+
+.mexico {
+  position: absolute;
+  left: 11.5%;
+  bottom: 51.5%;
+}
+
+.miami {
+  position: absolute;
+  left: 20%;
+  bottom: 53%;
+}
+
+.montreal {
+  position: absolute;
+  left: 20%;
+  bottom: 69.5%;
+}
+
+.washington {
+  position: absolute;
+  left: 23%;
+  bottom: 62%;
+}
+
+.new_york {
+  position: absolute;
+  left: 25.5%;
+  bottom: 68%;
+}
+
+.bogota {
+  position: absolute;
+  left: 19.2%;
+  bottom: 42%;
+}
+
+.lima {
+  position: absolute;
+  left: 16.7%;
+  bottom: 31.1%;
+}
+.santiago {
+  position: absolute;
+  left: 17.7%;
+  bottom: 19.6%;
+}
+.buenos_aires {
+  position: absolute;
+  left: 25.4%;
+  bottom: 21.6%;
+}
+.sao_paulo {
+  position: absolute;
+  left: 29.7%;
+  bottom: 29.6%;
+}
+
+.lagos {
+  position: absolute;
+  left: 44.2%;
+  bottom: 44.3%;
+}
+
+.kinshasa {
+  position: absolute;
+  left: 48.9%;
+  bottom: 37.2%;
+}
+
+.johannesburg {
+  position: absolute;
+  left: 53%;
+  bottom: 26.5%;
+}
+
+.khartoum {
+  position: absolute;
+  left: 53.6%;
+  bottom: 46.2%;
+}
+
+.le_caire {
+  position: absolute;
+  left: 52.2%;
+  bottom: 56.3%;
+}
+
+.alger {
+  position: absolute;
+  left: 46.6%;
+  bottom: 58.5%;
+}
+
+.madrid {
+  position: absolute;
+  left: 38.3%;
+  bottom: 64%;
+}
+
+.paris {
+  position: absolute;
+  left: 45%;
+  bottom: 69%;
+}
+
+.londres {
+  position: absolute;
+  left: 39.3%;
+  bottom: 74%;
+}
+
+.essen {
+  position: absolute;
+  left: 46.8%;
+  bottom: 75.3%;
+}
+
+.milan {
+  position: absolute;
+  left: 50%;
+  bottom: 70.4%;
+}
+
+
+.istanbul {
+  position: absolute;
+  left: 53.2%;
+  bottom: 65%;
+}
+
+
+.saint-petersbourg {
+  position: absolute;
+  left: 55.1%;
+  bottom: 78%;
+}
+
+
+.moscou {
+  position: absolute;
+  left: 59.1%;
+  bottom: 71.1%;
+}
+
+
+.bagdad {
+  position: absolute;
+  left: 58.5%;
+  bottom: 59.4%;
+}
+
+
+.teheran {
+  position: absolute;
+  left: 64.2%;
+  bottom: 66.3%;
+}
+
+.karachi {
+  position: absolute;
+  left: 65.6%;
+  bottom: 56.3%;
+}
+
+.riyad {
+  position: absolute;
+  left: 59.4%;
+  bottom: 50.2%;
+}
+
+.mumbai {
+  position: absolute;
+  left: 66.3%;
+  bottom: 48.7%;
+}
+
+.delhi {
+  position: absolute;
+  left: 71.1%;
+  bottom: 59.2%;
+}
+
+.chennai {
+  position: absolute;
+  left: 72.35%;
+  bottom: 43%;
+}
+
+.calcutta {
+  position: absolute;
+  left: 76.5%;
+  bottom: 56.7%;
+}
+
+.bangkok {
+  position: absolute;
+  left: 77.6%;
+  bottom: 48.1%;
+}
+
+.jakarta {
+  position: absolute;
+  left: 77.6%;
+  bottom: 34%;
+}
+
+.ho-chi-minh-ville {
+  position: absolute;
+  left: 82.3%;
+  bottom: 40.7%;
+}
+
+.hong_kong {
+  position: absolute;
+  left: 82.1%;
+  bottom: 52.7%;
+}
+
+.shanghai {
+  position: absolute;
+  left: 81.3%;
+  bottom: 61.3%;
+}
+
+.pekin {
+  position: absolute;
+  left: 80.9%;
+  bottom: 68.8%;
+}
+
+.seoul {
+  position: absolute;
+  left: 87.5%;
+  bottom: 69%;
+}
+
+.tokyo {
+  position: absolute;
+  left: 92.8%;
+  bottom: 65.3%;
+}
+
+.osaka {
+  position: absolute;
+  left: 93.6%;
+  bottom: 57.3%;
+}
+
+.taipei {
+  position: absolute;
+  left: 88%;
+  bottom: 54.2%;
+}
+.manille {
+  position: absolute;
+  left: 89.7%;
+  bottom: 41%;
+}
+
+.sydney {
+  position: absolute;
+  left: 94.1%;
+  bottom: 19.5%;
+}
